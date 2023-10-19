@@ -19,4 +19,4 @@ GenArch is a command-line utility designed to facilitate Flutter developers by a
 2. Run the following command:
 
 ```bash
-flutter genarch <feature_name>
+genarch <feature_name>
