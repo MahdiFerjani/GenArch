@@ -1,7 +1,7 @@
 name: genarch
 description: A utility to generate feature architecture for Flutter projects.
 version: 1.0.3
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/MahdiFerjani/GenArch
 
 environment:
   sdk: ^3.1.3

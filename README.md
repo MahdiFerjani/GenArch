@@ -10,26 +10,27 @@ GenArch is a command-line utility designed to facilitate Flutter developers by a
 
 ## Directory Structure
 
-GenArch generates a directory structure adhering to a specific architectural pattern for your Flutter features. The structure is organized as follows:
-`
-<feature_name>
-├── data
-│ ├── data_sources
-│ ├── models
-│ └── repositories
-├── domain
-│ ├── entities
-│ ├── repositories
-│ └── use_cases
-└── presentation
-├── bloc
-├── pages
-└── widgets ` 
-Each directory serves a specific purpose in your Flutter project's feature development.
+GenArch creates a directory structure based on a specific architectural pattern for your Flutter features:
 
-- **`data`**: Contains data-related components like data sources, models, and repositories.
-- **`domain`**: Focuses on the core business logic, including entities, repositories, and use cases.
-- **`presentation`**: Handles the user interface with bloc logic, pages, and reusable widgets.
+- `<feature_name>`
+  - `data`
+    - `data_sources`
+    - `models`
+    - `repositories`
+  - `domain`
+    - `entities`
+    - `repositories`
+    - `use_cases`
+  - `presentation`
+    - `bloc`
+    - `pages`
+    - `widgets`
+
+Each directory has a distinct role in the development of your Flutter project's feature:
+
+- **`data`**: Houses data-related components, such as data sources, models, and repositories.
+- **`domain`**: Concentrates on core business logic, including entities, repositories, and use cases.
+- **`presentation`**: Manages the user interface, including bloc logic, pages, and reusable widgets.
 
 ## Environment Variables
 
